@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { t } from "../../../lib/styles";
+import { t } from "@/lib/styles";
 import { ModalShell } from "../ui";
 
 export default function NoteModal({ data, clients, onSave, onClose }) {
