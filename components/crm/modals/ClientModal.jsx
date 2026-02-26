@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { STATUS_OPTS } from "../../../lib/data";
-import { t } from "../../../lib/styles";
+import { STATUS_OPTS } from "@/lib/data";
+import { t } from "@/lib/styles";
 import { Field, ModalShell } from "../ui";
 
 export default function ClientModal({ data, onSave, onClose }) {
