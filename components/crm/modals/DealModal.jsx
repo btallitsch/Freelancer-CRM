@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { STAGES } from "../../../lib/data";
-import { t } from "../../../lib/styles";
+import { STAGES } from "@/lib/data";
+import { t } from "@/lib/styles";
 import { Field, ModalShell } from "../ui";
 
 export default function DealModal({ data, clients, onSave, onClose }) {
