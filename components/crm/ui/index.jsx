@@ -1,5 +1,5 @@
-import { t } from "../../lib/styles";
-import { statusColor, stageColor } from "../../lib/helpers";
+import { t } from "@/lib/styles";
+import { statusColor, stageColor } from "@/lib/helpers";
 
 export function StatusBadge({ status }) {
   const c = statusColor(status);
